@@ -1,0 +1,47 @@
+#nav li {
+  float:right;
+}
+
+#name {
+  float:left;
+}
+
+#header {
+  background-color: yellow;
+  overflow: auto;
+}
+
+img {
+  min-width:100%;
+}
+
+#content {
+  background-color:lightblue;
+  float:left;
+}
+
+#image {
+  background-color:brown;
+}
+
+#main {
+  margin:1%;
+}
+
+body {
+  background-color:green;
+}
+
+#photos {
+  float:right;
+  background-color:pink;
+  clear:both;
+}
+
+.pattern {
+  max-width:100px;
+}
+
+ul {
+  list-style:none;
+}
