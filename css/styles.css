@@ -1,11 +1,13 @@
+/* HEADER ELEMENTS */
+
 #nav li {
   float:right;
-  /*background-color:red;*/
   margin:0 8 0 8;
   font-family:Montserrat;
 }
 
 ul {
+  /*background-color:yellow;*/
   list-style:none;
 }
 
@@ -19,30 +21,29 @@ a:link {
 }
 
 #name {
-  float:left;
   /*background-color:lightblue;*/
+  font-family:Montserrat;
+  float:left;
   margin:16px 0 16px 16px;
 }
 
-#nav {
-
-}
-
 #header {
-  /*background-color: yellow;*/
   overflow: auto;
+  /*background-color:pink;*/
 }
 
-#image {
-  width:100%;
-}
+/* BANNER IMAGE ELEMENTS */
 
 #gareth {
   width:100%;
 }
 
+/* MAIN BODY ELEMENTS */
+
 #main {
   margin:2%;
+  /*background-color:orange;*/
+
 }
 
 body {
@@ -71,8 +72,6 @@ h1,h2 {
   float:left;
   width:45%;
   padding:17px;
-
-
 }
 
 .pattern {
@@ -80,9 +79,52 @@ h1,h2 {
   margin:5px;
 }
 
-#footer {
-  background-color: rgb(235, 234, 227);
+/* FOOTER ELEMENTS */
 
+#footer {
+  /*background-color: rgb(235, 234, 227);*/
   width:100%;
   text-align:center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 850px) {
+
+  body {
+    /*background-color:teal;*/
+  }
+
+  #content {
+    float:none;
+    width:100%;
+  }
+
+  #photos {
+    float:none;
+    width:100%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  body {
+    /*background-color:purple;*/
+  }
+
+  #name {
+    float:none;
+    text-align:center;
+  }
+
+  #nav li {
+    float:none;
+    margin:0;
+    text-align:center;
+  }
+
+  #ul {
+    float:none;
+    text-align:center;
+  }
 }
