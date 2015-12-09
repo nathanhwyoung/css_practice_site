@@ -1,47 +1,88 @@
 #nav li {
   float:right;
-}
-
-#name {
-  float:left;
-}
-
-#header {
-  background-color: yellow;
-  overflow: auto;
-}
-
-img {
-  min-width:100%;
-}
-
-#content {
-  background-color:lightblue;
-  float:left;
-}
-
-#image {
-  background-color:brown;
-}
-
-#main {
-  margin:1%;
-}
-
-body {
-  background-color:green;
-}
-
-#photos {
-  float:right;
-  background-color:pink;
-  clear:both;
-}
-
-.pattern {
-  max-width:100px;
+  /*background-color:red;*/
+  margin:0 8 0 8;
+  font-family:Montserrat;
 }
 
 ul {
   list-style:none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#ul {
+  float:right;
+  padding:0;
+}
+
+#name {
+  float:left;
+  /*background-color:lightblue;*/
+  margin:16px 0 16px 16px;
+}
+
+#nav {
+
+}
+
+#header {
+  /*background-color: yellow;*/
+  overflow: auto;
+}
+
+#image {
+  width:100%;
+}
+
+#gareth {
+  width:100%;
+}
+
+#main {
+  margin:2%;
+}
+
+body {
+  background-color: rgb(250, 250, 240);
+}
+
+p {
+  font-family:Droid+Sans;
+}
+
+#main {
+  overflow:auto;
+}
+
+h1,h2 {
+  font-family:Montserrat;
+}
+
+#photos {
+  float:right;
+  width:45%;
+  padding:17px;
+}
+
+#content {
+  float:left;
+  width:45%;
+  padding:17px;
+
+
+}
+
+.pattern {
+  width:100px;
+  margin:5px;
+}
+
+#footer {
+  background-color: rgb(235, 234, 227);
+
+  width:100%;
+  text-align:center;
 }
