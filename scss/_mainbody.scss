@@ -22,14 +22,12 @@ h1,h2 {
 
 #photos {
   float:right;
-  width:45%;
-  padding:17px;
+  @extend %width_and_padding_main;
 }
 
 #content {
   float:left;
-  width:45%;
-  padding:17px;
+  @extend %width_and_padding_main;
 }
 
 .pattern {

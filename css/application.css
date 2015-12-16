@@ -1,5 +1,5 @@
 /* BANNER IMAGE ELEMENTS */
-#gareth {
+#rocks {
   width: 100%; }
 
 /* FOOTER ELEMENTS */
@@ -76,14 +76,10 @@ h1, h2 {
   font-family: Montserrat; }
 
 #photos {
-  float: right;
-  width: 45%;
-  padding: 17px; }
+  float: right; }
 
 #content {
-  float: left;
-  width: 45%;
-  padding: 17px; }
+  float: left; }
 
 .pattern {
   width: 100px;
@@ -92,5 +88,9 @@ h1, h2 {
 #nav li, #name {
   font-family: Montserrat;
   font-weight: bold; }
+
+#photos, #content {
+  width: 45%;
+  padding: 17px; }
 
 /*# sourceMappingURL=application.css.map */
