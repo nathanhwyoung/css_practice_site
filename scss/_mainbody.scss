@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ccccb3
+  background-color: $background-light-blue;
 }
 
 p {
@@ -17,7 +17,7 @@ p {
 }
 
 h1,h2 {
-  font-family:Montserrat;
+  font-family:$stack-sans-serif;
 }
 
 #photos {

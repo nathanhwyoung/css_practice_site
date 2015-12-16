@@ -7,7 +7,7 @@
   /*background-color: rgb(235, 234, 227);*/
   width: 100%;
   text-align: center;
-  font-family: Montserrat; }
+  font-family: Montserrat, Arial, sans-serif; }
 
 /* HEADER ELEMENTS */
 #nav li {
@@ -64,7 +64,7 @@ a:link {
   margin: 2%; }
 
 body {
-  background-color: #ccccb3; }
+  background-color: #93C2D2; }
 
 p {
   font-family: DroidSans; }
@@ -73,7 +73,7 @@ p {
   overflow: auto; }
 
 h1, h2 {
-  font-family: Montserrat; }
+  font-family: Montserrat, Arial, sans-serif; }
 
 #photos {
   float: right; }
@@ -86,7 +86,7 @@ h1, h2 {
   margin: 5px; }
 
 #nav li, #name {
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, sans-serif;
   font-weight: bold; }
 
 #photos, #content {
