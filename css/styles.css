@@ -1,130 +1,98 @@
 /* HEADER ELEMENTS */
-
 #nav li {
-  float:right;
-  margin:0 8 0 8;
-  font-family:Montserrat;
-}
+  float: right;
+  margin: 0 8 0 8;
+  font-family: Montserrat; }
 
 ul {
   /*background-color:yellow;*/
-  list-style:none;
-}
+  list-style: none; }
 
 a:link {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 #ul {
-  float:right;
-  padding:0;
-}
+  float: right;
+  padding: 0; }
 
 #name {
   /*background-color:lightblue;*/
-  font-family:Montserrat;
-  float:left;
-  margin:16px 0 16px 16px;
-}
+  font-family: Montserrat;
+  float: left;
+  margin: 16px 0 16px 16px; }
 
 #header {
   overflow: auto;
-  /*background-color:pink;*/
-}
+  /*background-color:pink;*/ }
 
 /* BANNER IMAGE ELEMENTS */
-
 #gareth {
-  width:100%;
-}
+  width: 100%; }
 
 /* MAIN BODY ELEMENTS */
-
 #main {
-  margin:2%;
-  /*background-color:orange;*/
-
-}
+  margin: 2%;
+  /*background-color:orange;*/ }
 
 body {
-  background-color: rgb(250, 250, 240);
-}
+  background-color: #fafaf0; }
 
 p {
-  font-family:Droid+Sans;
-}
+  font-family: DroidSans; }
 
 #main {
-  overflow:auto;
-}
+  overflow: auto; }
 
-h1,h2 {
-  font-family:Montserrat;
-}
+h1, h2 {
+  font-family: Montserrat; }
 
 #photos {
-  float:right;
-  width:45%;
-  padding:17px;
-}
+  float: right;
+  width: 45%;
+  padding: 17px; }
 
 #content {
-  float:left;
-  width:45%;
-  padding:17px;
-}
+  float: left;
+  width: 45%;
+  padding: 17px; }
 
 .pattern {
-  width:100px;
-  margin:5px;
-}
+  width: 100px;
+  margin: 5px; }
 
 /* FOOTER ELEMENTS */
-
 #footer {
   /*background-color: rgb(235, 234, 227);*/
-  width:100%;
-  text-align:center;
-}
+  width: 100%;
+  text-align: center; }
 
 /* MEDIA QUERIES */
-
 @media (max-width: 850px) {
-
   body {
-    /*background-color:teal;*/
-  }
+    /*background-color:teal;*/ }
 
   #content {
-    float:none;
-    width:100%;
-  }
+    float: none;
+    width: 100%; }
 
   #photos {
-    float:none;
-    width:100%;
-  }
-}
-
+    float: none;
+    width: 100%; } }
 @media (max-width: 650px) {
-
   body {
-    /*background-color:purple;*/
-  }
+    /*background-color:purple;*/ }
 
   #name {
-    float:none;
-    text-align:center;
-  }
+    float: none;
+    text-align: center; }
 
   #nav li {
-    float:none;
-    margin:0;
-    text-align:center;
-  }
+    float: none;
+    margin: 0;
+    text-align: center; }
 
   #ul {
-    float:none;
-    text-align:center;
-  }
-}
+    float: none;
+    text-align: center; } }
+
+/*# sourceMappingURL=styles.css.map */
