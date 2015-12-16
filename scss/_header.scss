@@ -1,13 +1,12 @@
 /* HEADER ELEMENTS */
 
 #nav li {
+  @extend %bold-font;
   float:right;
   margin:0 8 0 8;
-  font-family:Montserrat;
 }
 
 ul {
-  /*background-color:yellow;*/
   list-style:none;
 }
 
@@ -21,13 +20,11 @@ a:link {
 }
 
 #name {
-  /*background-color:lightblue;*/
-  font-family:Montserrat;
+  @extend %bold-font;
   float:left;
   margin:16px 0 16px 16px;
 }
 
 #header {
   overflow: auto;
-  /*background-color:pink;*/
 }

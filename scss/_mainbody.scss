@@ -1,0 +1,38 @@
+/* MAIN BODY ELEMENTS */
+
+#main {
+  margin:2%;
+}
+
+body {
+  background-color: #ccccb3
+}
+
+p {
+  font-family:Droid+Sans;
+}
+
+#main {
+  overflow:auto;
+}
+
+h1,h2 {
+  font-family:Montserrat;
+}
+
+#photos {
+  float:right;
+  width:45%;
+  padding:17px;
+}
+
+#content {
+  float:left;
+  width:45%;
+  padding:17px;
+}
+
+.pattern {
+  width:100px;
+  margin:5px;
+}
