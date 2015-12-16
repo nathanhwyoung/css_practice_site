@@ -1,0 +1,33 @@
+/* HEADER ELEMENTS */
+
+#nav li {
+  float:right;
+  margin:0 8 0 8;
+  font-family:Montserrat;
+}
+
+ul {
+  /*background-color:yellow;*/
+  list-style:none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#ul {
+  float:right;
+  padding:0;
+}
+
+#name {
+  /*background-color:lightblue;*/
+  font-family:Montserrat;
+  float:left;
+  margin:16px 0 16px 16px;
+}
+
+#header {
+  overflow: auto;
+  /*background-color:pink;*/
+}
